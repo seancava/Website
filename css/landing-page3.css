@@ -1,0 +1,313 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/*font-family: 'Fascinate Inline', cursive;*/
+/*font-family: 'Bungee Shade', cursive;*/
+/*font-family: 'Monoton', cursive;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Chango', cursive;*/
+/*------------------MY LARGE STYLES---------------------*/
+
+.intro-message h1 {
+    font-family: 'Chango', serif;
+    /*  font-size: 5em;*/
+    
+    color: #ffcc00;
+}
+.intro-message > h1 {
+    margin: 0 0 0 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 8em;
+    line-height: .8em;
+    text-align: left;
+}
+#myintrotext {
+    font-family: sans-serif;
+    font-size: 4em;
+    color: #ff00cc;
+    /*  margin: 0 20% 0 20%;*/
+    
+    line-height: 1em;
+    text-shadow: 1px 2px #000;
+    font-stretch: extra-condensed;
+    text-align: left;
+}
+#letsboogie {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: red;
+    background: url("woodpanel.jpg") no-repeat top left;
+    background-color: #996600;
+    border-color: aqua;
+    width: 100%;
+}
+/*-----------END MY LARGE STYLES--------------*/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+body,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.6em;
+    font-family: 'Chango', 'sans-serif';
+    border-bottom: 2px;
+    color: cadetblue;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.topnav {
+    font-size: 24px;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    word-spacing: 1px;
+    letter-spacing: normal;
+}
+.intro-header {
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    
+    padding-bottom: 0;
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #996600;
+    background: url(../img/1.jpg) no-repeat top right;
+    background-size: cover;
+    /*
+  height: 100vh;
+  min-height: auto;
+*/
+}
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.intro-divider {
+    width: 800px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+@media(max-width:767px) {
+    /*------------------MY SMALL STYLES---------------------*/
+    
+    color swatch #ffcc00 #666600 #999900 #663300 .myaboutlist {
+        line-height: 1.3em;
+    }
+    .intro-message h1 {
+        font-family: 'Chango', 'script';
+        color: #ffcc00;
+        padding: 0 0 5% 0;
+    }
+    .intro-message > h1 {
+        margin: 0 0 0 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 12vw;
+        line-height: .9em;
+        text-align: left;
+    }
+    #myintrotext {
+        font-family: sans-serif;
+        font-size: 1.9em;
+        color: #ffcc99;
+        /*  margin: 0 20% 0 20%;*/
+        
+        line-height: 1.1em;
+        text-shadow: 1px 2px #000;
+        font-stretch: extra-condensed;
+        letter-spacing: 1px;
+        text-align: left;
+        font-style: italic;
+    }
+    .myintrobutton {
+        font-family: sans-serif;
+        font-size: 1em;
+        color: #663300;
+        /*  background: url("woodpanel.jpg") no-repeat top left;*/
+        
+        background-color: #ffcc00;
+        border-width: 0;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        /*  vertical-align: bottom;*/
+    }
+    /*  hr{*/
+    
+    width:100%;
+    color: red;
+}
+#mytopbar {
+    background-color: #663300;
+}
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/2.jpg) no-repeat center center;
+    background-size: cover;
+}
+tr td time {
+    /*  background-color: #ffffcc;*/
+    /*  border: 1px solid brown;*/
+    
+    font-size: 1.8em;
+    line-height: .8em;
+    color: white;
+    font-weight: 100;
+}
+tr td:first-child {
+    font-family: sans-serif;
+    /*  background:url(../img/dateline.png);*/
+    
+    background-color: rgba(102, 51, 0, 0.4);
+    background-position: center;
+    background-repeat: repeat-y;
+    padding: 6px 6px 0 6px;
+    vertical-align: text-top;
+    text-align: center;
+    width: 10%;
+    margin: 0;
+    line-height: 1em;
+}
+/*tr td:nth-child(2n+2){*/
+}
+tr td:last-child {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 1.2em;
+    /*  background-color: lightblue;*/
+    /*  background:url("img/dateline.png");*/
+    
+    background-position: center;
+    background-repeat: repeat-y;
+    vertical-align: text-top;
+    width: 90%;
+}
+tr td ul {
+    font-weight: 700;
+    font-size: .85em;
+    list-style: none;
+    padding: 0;
+    line-height: 1.1em;
+    padding: 3px 3px 3px 8px
+}
+tr td ul li:first-child {
+    font-size: 1.4em;
+    list-style: none;
+    padding: 0;
+    line-height: 1.1em;
+}
+/*-----------END MY SMALL STYLES--------------*/
+
+.intro-message {
+    padding-top: 80%;
+    padding-bottom: 0;
+}
+ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 6px;
+    padding: 0;
+}
+ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+}
+.intro-divider {
+    width: 100%;
+}
+}
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.content-section-a {
+    padding: 50px 0;
+}
+.content-section-b {
+    padding: 50px 0;
+    background-color: #ffffcc;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.section-heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,
+    0,
+    0,
+    0.6);
+    font-size: 3em;
+}
+.banner ul {
+    margin-bottom: 0;
+}
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 3em;
+    }
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+p.copyright {
+    margin: 15px 0 0;
+}
+--------------------------------------------- p.intro {
+    font-size: 1.6em;
+}
+#topbar {
+    background-color: green;
+}
+------------------------------------------------------
