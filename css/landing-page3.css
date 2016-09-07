@@ -62,7 +62,7 @@ h2 {
     font-size: 2.6em;
     font-family: 'Chango', 'sans-serif';
     border-bottom: 2px;
-    color: cadetblue;
+    color: #66cccc;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
 .topnav {
@@ -106,7 +106,9 @@ h2 {
 @media(max-width:767px) {
     /*------------------MY SMALL STYLES---------------------*/
     
-    color swatch #ffcc00 #666600 #999900 #663300 .myaboutlist {
+    color swatch #ffcc00 #666600 #999900 #663300 #ffffcc #66cccc #ccffff
+  
+  .myaboutlist {
         line-height: 1.3em;
     }
     .intro-message h1 {
@@ -165,10 +167,11 @@ tr td time {
     /*  background-color: #ffffcc;*/
     /*  border: 1px solid brown;*/
     
-    font-size: 1.8em;
+    font-size: 2em;
     line-height: .8em;
-    color: white;
+    color: #ffffcc;
     font-weight: 100;
+  letter-spacing: 1%;
 }
 tr td:first-child {
     font-family: sans-serif;
@@ -177,7 +180,7 @@ tr td:first-child {
     background-color: rgba(102, 51, 0, 0.4);
     background-position: center;
     background-repeat: repeat-y;
-    padding: 6px 6px 0 6px;
+    padding: 6px 6px 6px 6px;
     vertical-align: text-top;
     text-align: center;
     width: 10%;
@@ -200,18 +203,19 @@ tr td:last-child {
     width: 90%;
 }
 tr td ul {
-    font-weight: 700;
+    font-weight: 500;
     font-size: .85em;
     list-style: none;
     padding: 0;
     line-height: 1.1em;
-    padding: 3px 3px 3px 8px
+    padding: 3px 6px 3px 8px
 }
 tr td ul li:first-child {
-    font-size: 1.4em;
+    font-size: 1.6em;
     list-style: none;
     padding: 0;
     line-height: 1.1em;
+  font-weight: 200;
 }
 /*-----------END MY SMALL STYLES--------------*/
 
@@ -243,6 +247,12 @@ ul.intro-social-buttons > li:last-child {
 .content-section-b {
     padding: 50px 0;
     background-color: #ffffcc;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.content-section-c {
+    padding: 50px 0;
+    background-color: #ccffff;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
