@@ -59,10 +59,10 @@ h6 {
     font-weight: 700;
 }
 h2 {
-    font-size: 2.6em;
+    font-size: 9vw;
     font-family: 'Chango', 'sans-serif';
     border-bottom: 2px;
-    color: #66cccc;
+    color: #cc9933;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
 .topnav {
@@ -106,11 +106,8 @@ h2 {
 @media(max-width:767px) {
     /*------------------MY SMALL STYLES---------------------*/
     
-    color swatch #ffcc00 #666600 #999900 #663300 #ffffcc #66cccc #ccffff
-  
-  .myaboutlist {
-        line-height: 1.3em;
-    }
+    color swatch #ffcc00 #666600 #999900 #663300 #ffffcc #66cccc #ccffff #996600
+
     .intro-message h1 {
         font-family: 'Chango', 'script';
         color: #ffcc00;
@@ -149,11 +146,7 @@ h2 {
         margin: 0;
         /*  vertical-align: bottom;*/
     }
-    /*  hr{*/
-    
-    width:100%;
-    color: red;
-}
+
 #mytopbar {
     background-color: #663300;
 }
@@ -181,7 +174,7 @@ tr td:first-child {
     background-position: center;
     background-repeat: repeat-y;
     padding: 6px 6px 6px 6px;
-    vertical-align: text-top;
+    vertical-align: top;
     text-align: center;
     width: 10%;
     margin: 0;
@@ -190,15 +183,11 @@ tr td:first-child {
 /*tr td:nth-child(2n+2){*/
 }
 tr td:last-child {
+  margin: 0;
     font-family: sans-serif;
     font-weight: 100;
     font-size: 1em;
     line-height: 1.2em;
-    /*  background-color: lightblue;*/
-    /*  background:url("img/dateline.png");*/
-    
-    background-position: center;
-    background-repeat: repeat-y;
     vertical-align: text-top;
     width: 90%;
 }
@@ -207,14 +196,14 @@ tr td ul {
     font-size: .85em;
     list-style: none;
     padding: 0;
-    line-height: 1.1em;
-    padding: 3px 6px 3px 8px
+    line-height: 1.3em;
+    padding: 3px 6px 3px 8px;
+   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 tr td ul li:first-child {
     font-size: 1.6em;
-    list-style: none;
-    padding: 0;
-    line-height: 1.1em;
+    padding: 0 0 4px 0;
+    line-height: 1em;
   font-weight: 200;
 }
 /*-----------END MY SMALL STYLES--------------*/
@@ -243,6 +232,7 @@ ul.intro-social-buttons > li:last-child {
 }
 .content-section-a {
     padding: 50px 0;
+    background-color: #ffffcc;
 }
 .content-section-b {
     padding: 50px 0;
