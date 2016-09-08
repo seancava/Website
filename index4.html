@@ -24,8 +24,10 @@
   <!-- Plugin CSS -->
   
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+<!--  <link href="css/creative.css" rel="stylesheet">-->
   <!-- Theme CSS for portfolio -->
 <!--      <link href="css/creative.min.css" rel="stylesheet">-->
+  
   <!--/portfolio----------------------------------------------->
   <!-- Bootstrap Core CSS -->
   
@@ -59,7 +61,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li> <a href="#cv">About</a> </li>
+                    <li> <a href="#about">About</a> </li>
           <li> <a href="#portfolio">Portfolio</a> </li>
           <li> <a href="#contact">Contact</a> </li>
                 </ul>
@@ -96,12 +98,11 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
-    <div class="content-section-a">
+	<div class="content-section-a">
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-5 col-sm-6" id="about">
                     <h2>About</h2>
                     <p class="myabout"> Graphic Designer &#124; Web Designer &#124; Web Developer </p>
           <p> HTML &#124; CSS &#124; Javascript &#124; Bootstrap &#124; Node.js &#124; Git Bash </p>
@@ -109,7 +110,7 @@
           <p>Dad &#124; Husband &#124; Musician </p>
           <hr> 
                 </div>
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-5 col-sm-6" id="education">
                     <h2>Education</h2>
                   <div class="table-responsive">
             <table class="table-striped">
@@ -189,7 +190,9 @@
           <img alt="Certified by the University of Washington" class="img-responsive" src="img/certificate2.png"> 
           <img class="img-responsive" alt="Certified by Sheridan College" src="img/certificate3.png"> 
                     <hr>
-                  <h2>Employment</h2> 
+              </div>
+              <div class="col-lg-5 col-sm-6" id="employment">    
+                <h2>Employment</h2> 
           <div class="table-responsive">
             <table class="table-striped">
               <tr>
@@ -370,23 +373,17 @@
                     <h2>Web</h2>
                   <div class="table-responsive">
             <table class="table-striped">
-              <tr>
-                <th></th>
-              </tr>
               <tbody>
-                <tr>
-                 
-                <tr>
-                  <td>
-                  </td>
-                  <td>
-                    <ul>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                  </td>
-                </tr>
+            <tr><td><a href="http://blackfriarsbistro.com/">Blackfriars Bistro &amp; Catering</a></td>
+            </tr>
+            <tr><td><a href="http://309-design.com/">309-Design</a></td>
+            </tr>
+            <tr><td><a href="http://www.larosepsychology.com/">LaRose Psychology</a></td>
+            </tr>
+                <tr><td><a href="http://www.redoxtech.com/">Redox Technologies</a></td>
+            </tr>
+                <tr><td><a href="http://wallaceworkwear.com/">Wallace Workwear</a></td>
+            </tr>
               </tbody>
             </table>
           </div>
@@ -399,34 +396,60 @@
     </div>
     <!-- /.content-section-b -->
 
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
+	<div class="banner" id="contact">
+    <div class="container">
+      <div class="row">
+         <div class="col-lg-6">
+          <h2>Contact me</h2> </div>
+        <div class="col-lg-6">
+          <ul class="list-inline banner-social-buttons">
+            <li> <a href="https://www.instagram.com/seancavanaugh1984" class="btn myintrobutton"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a> </li>
+            <li> <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn myintrobutton"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a> </li>
+            <li> <a href="https://ca.linkedin.com/in/sean-cavanaugh-71b53618" class="btn myintrobutton"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a> </li>
+          </ul>
         </div>
-        <!-- /.container -->
-
+      </div>
+      <!--          start form-->
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Contact
+                        <strong>form</strong>
+                    </h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+            <form role="form">
+              <div class="row">
+                <div class="form-group col-lg-4">
+                  <label>Name</label>
+                  <input type="text" class="form-control"> </div>
+                <div class="form-group col-lg-4">
+                  <label>Email Address</label>
+                  <input type="email" class="form-control"> </div>
+                <div class="form-group col-lg-4">
+                  <label>Phone Number</label>
+                  <input type="tel" class="form-control"> </div>
+                <div class="clearfix"></div>
+                <div class="form-group col-lg-12">
+                  <label>Message</label>
+                  <textarea class="form-control" rows="6"></textarea>
+                </div>
+                <div class="form-group col-lg-12">
+                  <input type="hidden" name="save" value="contact">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  <button type="reset" class="btn btn-default">Reset</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--          end form-->
     </div>
+    <!-- /.container -->
+  </div>
+        <!-- /.container -->
     <!-- /.banner -->
 
     <!-- Footer -->
@@ -464,15 +487,15 @@
   
   
    <!-- jQuery -->
-<!--  <script src="vendor/jquery/jquery.min.js"></script>-->
+<!--  COMBINE THIS IT BREAKS DROPDOWN<script src="vendor/jquery/jquery.min.js"></script>-->
   <!-- Bootstrap Core JavaScript -->
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <!-- Plugin JavaScript -->
-<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
-<!--  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>-->
-<!--  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
   <!-- Theme JavaScript -->
-<!--  <script src="js/creative.min.js"></script>-->
+  <script src="js/creative.min.js"></script>
   <!-- jQuery -->
  
    
