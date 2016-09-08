@@ -1,315 +1,532 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+/* * Start Bootstrap - Landing Page (http://startbootstrap.com/) * Copyright 2013-2016 Start Bootstrap * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE) */
+/*font-family: 'Fascinate Inline', cursive;
+*/
+/*font-family: 'Bungee Shade', cursive;
+*/
+/*font-family: 'Monoton', cursive;
+*/
+/*font-family: 'Monofett', cursive;
+*/
+/*font-family: 'Chango', cursive;
+*/
+/*------------------MY LARGE STYLES---------------------*/
+ .intro-message h1 {
+     font-family: 'Chango', serif;
+    /* font-size: 5em;
+    */
+     color: #ffcc00;
+}
+ .intro-message > h1 {
+     margin: 0 0 0 0;
+     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+     font-size: 8em;
+     line-height: .8em;
+     text-align: left;
+}
+ #myintrotext {
+     font-family: sans-serif;
+     font-size: 4em;
+     color: #ff00cc;
+    /* margin: 0 20% 0 20%;
+    */
+     line-height: 1em;
+     text-shadow: 1px 2px #000;
+     font-stretch: extra-condensed;
+     text-align: left;
+}
+ #letsboogie {
+     font-family: sans-serif;
+     font-size: 1em;
+     color: red;
+     background: url("woodpanel.jpg") no-repeat top left;
+     background-color: #996600;
+     border-color: aqua;
+     width: 100%;
+}
+/*-----------END MY LARGE STYLES--------------*/
+ body, html {
+     width: 100%;
+     height: 100%;
+}
+ body, h3, h4, h5, h6 {
+     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight: 700;
+}
+ h2 {
+     font-size: 9vw;
+     font-family: 'Chango', 'sans-serif';
+     border-bottom: 2px;
+     color: #cc9933;
+     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+ .topnav {
+     font-size: 24px;
+}
+ .lead {
+     font-size: 18px;
+     font-weight: 400;
+     text-align: justify;
+     word-spacing: 1px;
+     letter-spacing: normal;
+}
+ .intro-header {
+     padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+     padding-bottom: 0;
+     text-align: center;
+     color: #f8f8f8;
+     background-color: #996600;
+     background: url(../img/1.jpg) no-repeat top right;
+     background-size: cover;
+    /* height: 100vh;
+     min-height: auto;
+     */
+}
+ .intro-message {
+     position: relative;
+     padding-top: 15%;
+     padding-bottom: 10%;
+}
+ .intro-divider {
+     width: 800px;
+     border-top: 1px solid #f8f8f8;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+ .intro-message > h3 {
+     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+ @media(max-width:767px) {
+    /*------------------MY SMALL STYLES---------------------*/
+/*     color swatch #ffcc00 #666600 #999900 #663300 #ffffcc #66cccc #ccffff #996600 */
+   .intro-message h1 {
+         font-family: 'Chango', 'script';
+         color: #ffcc00;
+         padding: 0 0 5% 0;
+    }
+     .intro-message > h1 {
+         margin: 0 0 0 0;
+         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+         font-size: 12vw;
+         line-height: .9em;
+         text-align: left;
+    }
+     #myintrotext {
+         font-family: sans-serif;
+         font-size: 1.9em;
+         color: #ffcc99;
+        /* margin: 0 20% 0 20%;
+        */
+         line-height: 1.1em;
+         text-shadow: 1px 2px #000;
+         font-stretch: extra-condensed;
+         letter-spacing: 1px;
+         text-align: left;
+         font-style: italic;
+    }
+     .myintrobutton {
+         font-family: sans-serif;
+         font-size: 1em;
+         color: #663300;
+        /* background: url("woodpanel.jpg") no-repeat top left;
+        */
+         background-color: #ffcc00;
+         border-width: 0;
+         width: 100%;
+         text-align: left;
+         margin: 0;
+        /* vertical-align: bottom;
+        */
+    }
+     #mytopbar {
+         background-color: #663300;
+    }
+     .banner {
+         padding: 100px 0;
+         color: #f8f8f8;
+         background: url(../img/2.jpg) no-repeat center center;
+         background-size: cover;
+    }
+     tr td time {
+        /* background-color: #ffffcc;
+        */
+        /* border: 1px solid brown;
+        */
+         font-size: 2em;
+         line-height: .8em;
+         color: #ffffcc;
+         font-weight: 100;
+    }
+     tr td:first-child {
+         font-family: sans-serif;
+        /* background:url(../img/dateline.png);
+        */
+         background-color: rgba(102, 51, 0, 0.4);
+         background-position: center;
+         background-repeat: repeat-y;
+         padding: 6px 6px 6px 6px;
+         vertical-align: top;
+         text-align: center;
+         width: 10%;
+         margin: 0;
+         line-height: 1em;
+    }
+    /*tr td:nth-child(2n+2){
+        */
+    }
+     tr td:last-child {
+         margin: 0;
+         font-family: sans-serif;
+         font-weight: 100;
+         font-size: 1em;
+         line-height: 1.2em;
+         vertical-align: text-top;
+         width: 90%;
+    }
+     tr td ul {
+         font-weight: 500;
+         font-size: .85em;
+         list-style: none;
+         padding: 0;
+         line-height: 1.3em;
+         padding: 3px 6px 3px 8px;
+         font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+     tr td ul li:first-child {
+         font-size: 1.6em;
+         padding: 0 0 4px 0;
+         line-height: 1em;
+         font-weight: 200;
+    }
+    /*-----------END MY SMALL STYLES--------------*/
+     .intro-message {
+         padding-top: 80%;
+         padding-bottom: 0;
+    }
+     ul.intro-social-buttons > li {
+         display: block;
+         margin-bottom: 6px;
+         padding: 0;
+    }
+     ul.intro-social-buttons > li:last-child {
+         margin-bottom: 0;
+    }
+     .intro-divider {
+         width: 100%;
+    }
+ .network-name {
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 2px;
+}
+ .content-section-a {
+     padding: 50px 0;
+     background-color: #ffffcc;
+}
+ .content-section-b {
+     padding: 50px 0;
+     background-color: #ccffff;
+    /* border-top: 1px solid #e7e7e7;
+     border-bottom: 1px solid #e7e7e7;
+     */
+}
+ 
+ .content-section-c {
+     padding: 50px 0;
+     background-color: #ccffff;
+     border-top: 1px solid #e7e7e7;
+     border-bottom: 1px solid #e7e7e7;
+}
+ .section-heading {
+     margin-bottom: 30px;
+     text-align: center;
+}
+ .section-heading-spacer {
+     float: left;
+     width: 200px;
+     border-top: 3px solid #e7e7e7;
+}
+ .banner {
+     padding: 100px 0;
+     color: #f8f8f8;
+     background: url(../img/2.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .banner h2 {
+     margin: 0;
+     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+     font-size: 3em;
+}
+ .banner ul {
+     margin-bottom: 0;
+}
+ .banner-social-buttons {
+     float: right;
+     margin-top: 0;
+}
+ @media(max-width:1199px) {
+     ul.banner-social-buttons {
+         float: left;
+         margin-top: 15px;
+    }
+}
+ @media(max-width:767px) {
+     .banner h2 {
+         margin: 0;
+         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+         font-size: 3em;
+    }
+     ul.banner-social-buttons > li {
+         display: block;
+         margin-bottom: 20px;
+         padding: 0;
+    }
+     ul.banner-social-buttons > li:last-child {
+         margin-bottom: 0;
+    }
+}
+ footer {
+     padding: 50px 0;
+     background-color: #f8f8f8;
+}
+ p.copyright {
+     margin: 15px 0 0;
+}
+p.intro {
+     font-size: 1.6em;
+}
+ #topbar {
+     background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*creative css*/
+/*!
+ * Start Bootstrap - Creative v1.1.1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-/*font-family: 'Fascinate Inline', cursive;*/
-/*font-family: 'Bungee Shade', cursive;*/
-/*font-family: 'Monoton', cursive;*/
-/*font-family: 'Monofett', cursive;*/
-/*font-family: 'Chango', cursive;*/
-/*------------------MY LARGE STYLES---------------------*/
 
-.intro-message h1 {
-    font-family: 'Chango', serif;
-    /*  font-size: 5em;*/
-    
-    color: #ffcc00;
-}
-.intro-message > h1 {
-    margin: 0 0 0 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 8em;
-    line-height: .8em;
-    text-align: left;
-}
-#myintrotext {
-    font-family: sans-serif;
-    font-size: 4em;
-    color: #ff00cc;
-    /*  margin: 0 20% 0 20%;*/
-    
-    line-height: 1em;
-    text-shadow: 1px 2px #000;
-    font-stretch: extra-condensed;
-    text-align: left;
-}
-#letsboogie {
-    font-family: sans-serif;
-    font-size: 1em;
-    color: red;
-    background: url("woodpanel.jpg") no-repeat top left;
-    background-color: #996600;
-    border-color: aqua;
-    width: 100%;
-}
-/*-----------END MY LARGE STYLES--------------*/
+@media (min-width: 768px) {
 
-body,
-html {
-    width: 100%;
-    height: 100%;
 }
-body,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-}
-h2 {
-    font-size: 9vw;
-    font-family: 'Chango', 'sans-serif';
-    border-bottom: 2px;
-    color: #cc9933;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
-}
-.topnav {
-    font-size: 24px;
-}
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: justify;
-    word-spacing: 1px;
-    letter-spacing: normal;
-}
-.intro-header {
-    padding-top: 50px;
-    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    
-    padding-bottom: 0;
-    text-align: center;
-    color: #f8f8f8;
-    background-color: #996600;
-    background: url(../img/1.jpg) no-repeat top right;
-    background-size: cover;
-    /*
-  height: 100vh;
-  min-height: auto;
-*/
-}
-.intro-message {
-    position: relative;
-    padding-top: 15%;
-    padding-bottom: 10%;
-}
-.intro-divider {
-    width: 800px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-@media(max-width:767px) {
-    /*------------------MY SMALL STYLES---------------------*/
-    
-    color swatch #ffcc00 #666600 #999900 #663300 #ffffcc #66cccc #ccffff #996600
-
-    .intro-message h1 {
-        font-family: 'Chango', 'script';
-        color: #ffcc00;
-        padding: 0 0 5% 0;
-    }
-    .intro-message > h1 {
-        margin: 0 0 0 0;
-        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-        font-size: 12vw;
-        line-height: .9em;
-        text-align: left;
-    }
-    #myintrotext {
-        font-family: sans-serif;
-        font-size: 1.9em;
-        color: #ffcc99;
-        /*  margin: 0 20% 0 20%;*/
-        
-        line-height: 1.1em;
-        text-shadow: 1px 2px #000;
-        font-stretch: extra-condensed;
-        letter-spacing: 1px;
-        text-align: left;
-        font-style: italic;
-    }
-    .myintrobutton {
-        font-family: sans-serif;
-        font-size: 1em;
-        color: #663300;
-        /*  background: url("woodpanel.jpg") no-repeat top left;*/
-        
-        background-color: #ffcc00;
-        border-width: 0;
-        width: 100%;
-        text-align: left;
-        margin: 0;
-        /*  vertical-align: bottom;*/
-    }
-
-#mytopbar {
-    background-color: #663300;
-}
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/2.jpg) no-repeat center center;
-    background-size: cover;
-}
-tr td time {
-    /*  background-color: #ffffcc;*/
-    /*  border: 1px solid brown;*/
-    
-    font-size: 2em;
-    line-height: .8em;
-    color: #ffffcc;
-    font-weight: 100;
-  letter-spacing: 1%;
-}
-tr td:first-child {
-    font-family: sans-serif;
-    /*  background:url(../img/dateline.png);*/
-    
-    background-color: rgba(102, 51, 0, 0.4);
-    background-position: center;
-    background-repeat: repeat-y;
-    padding: 6px 6px 6px 6px;
-    vertical-align: top;
-    text-align: center;
-    width: 10%;
-    margin: 0;
-    line-height: 1em;
-}
-/*tr td:nth-child(2n+2){*/
-}
-tr td:last-child {
-  margin: 0;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 1em;
-    line-height: 1.2em;
-    vertical-align: text-top;
-    width: 90%;
-}
-tr td ul {
-    font-weight: 500;
-    font-size: .85em;
-    list-style: none;
-    padding: 0;
-    line-height: 1.3em;
-    padding: 3px 6px 3px 8px;
-   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-tr td ul li:first-child {
-    font-size: 1.6em;
-    padding: 0 0 4px 0;
-    line-height: 1em;
-  font-weight: 200;
-}
-/*-----------END MY SMALL STYLES--------------*/
-
-.intro-message {
-    padding-top: 80%;
-    padding-bottom: 0;
-}
-ul.intro-social-buttons > li {
-    display: block;
-    margin-bottom: 6px;
-    padding: 0;
-}
-ul.intro-social-buttons > li:last-child {
-    margin-bottom: 0;
-}
-.intro-divider {
-    width: 100%;
-}
-}
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-.content-section-a {
-    padding: 50px 0;
-    background-color: #ffffcc;
-}
-.content-section-b {
-    padding: 50px 0;
-    background-color: #ccffff;
-/*
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-*/
-}
-.content-section-c {
-    padding: 50px 0;
-    background-color: #ccffff;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+header {
 }
 .section-heading {
-    margin-bottom: 30px;
-    text-align: center;
+  margin-top: 0;
 }
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
 }
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/2.jpg) no-repeat center center;
-    background-size: cover;
+@media (min-width: 992px) {
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
 }
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,
-    0,
-    0,
-    0.6);
-    font-size: 3em;
+.portfolio-box .portfolio-box-caption {
+  color: white;
+  opacity: 0;
+  display: block;
+  background: rgba(240, 95, 64, 0.9);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
-.banner ul {
-    margin-bottom: 0;
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
 }
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
 }
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-        font-size: 3em;
-    }
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
 }
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
 }
-p.copyright {
-    margin: 15px 0 0;
+.portfolio-box:focus {
+  outline: none;
 }
---------------------------------------------- p.intro {
-    font-size: 1.6em;
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
 }
-#topbar {
-    background-color: green;
+
+.text-primary {
+  color: #F05F40;
 }
-------------------------------------------------------
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-default {
+  color: #222222;
+  background-color: white;
+  border-color: white;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #222222;
+  background-color: #f2f2f2;
+  border-color: #ededed;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: white;
+  border-color: white;
+}
+.btn-default .badge {
+  color: white;
+  background-color: #222222;
+}
+.btn-primary {
+  color: white;
+  background-color: #F05F40;
+  border-color: #F05F40;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #ee4b28;
+  border-color: #ed431f;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+.btn-primary .badge {
+  color: #F05F40;
+  background-color: white;
+}
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding: 15px 30px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
