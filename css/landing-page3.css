@@ -251,7 +251,9 @@ footer a{
 }
  .content-section-b {
      padding: 50px 0;
-     background-color: #ffffcc;
+/*     background-color: #ffffcc;*/
+   
+   background-color: rgba(255, 204, 0, 0.3);
 }
  
  .content-section-c {
@@ -261,11 +263,11 @@ footer a{
 
  .content-section-d {
      padding: 50px 0;
-     background-color: #ccffff;
+     background-color: #ffffff;
 }
  .content-section-e {
      padding: 50px 0;
-     background-color: #ffffcc;
+     background-color: #ccffff;
 }
  .section-heading {
      margin-bottom: 30px;
