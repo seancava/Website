@@ -98,7 +98,7 @@
  @media(max-width:767px) {
     /*------------------MY SMALL STYLES---------------------*/
 /*     color swatch #ffcc00 #666600 #999900 #663300 #ffffcc #66cccc #ccffff #996600 */
-   .intro-message h1 {
+   /.intro-message h1 {
          font-family: 'Chango', 'script';
          color: #ffcc00;
          padding: 0 0 5% 0;
@@ -132,8 +132,8 @@
          background-color: #ffcc00;
          border-width: 0;
          width: 100%;
-         text-align: center;
-       letter-spacing: 50px;
+         text-align: right;
+/*       letter-spacing: 50px;*/
          margin: 0;
        
         /* vertical-align: bottom;
@@ -218,6 +218,10 @@
 tr td a{
   font-size: 32px;
 }
+footer a{
+  font-size 42px;
+  color: #66cccc;
+}*/
 
     /*-----------END MY SMALL STYLES--------------*/
      .intro-message {
@@ -275,7 +279,7 @@ tr td a{
  .banner {
      padding: 100px 0;
      color: #f8f8f8;
-     background: url(../img/2.jpg) no-repeat center center;
+   background: url(../img/1.jpg) no-repeat top left;
      background-size: cover;
 }
  .banner h2 {
@@ -313,7 +317,7 @@ tr td a{
 }
  footer {
      padding: 50px 0;
-     background-color: #f8f8f8;
+     background-color: #663300;
 }
  p.copyright {
      margin: 15px 0 0;
